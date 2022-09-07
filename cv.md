@@ -18,7 +18,7 @@
 * Github
     + [atenobi](https://github.com/atenobi/)
 
-* Telegram
+* Facebook
     + [Максим Шишко](https://facebook.com/atenobi/)
 
 ### Education
