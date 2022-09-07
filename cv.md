@@ -8,8 +8,8 @@
 ===
 ##### My contacts
 * Mail 
-    + atenobimailru@gmail.com
-    + atenobi@mail.ru 
+    + [atenobimailru@gmail.com](atenobimailru@gmail.com)
+    + [atenobi@mail.ru](atenobi@mail.ru)
 
 * Phone
     + \+48 690 111 590  
@@ -26,6 +26,10 @@
 ===
 
 ##### Education
+
+* 2006-2010
+    + Brest musical college
+        - opera singer
 
 * 2010-2014
     + Belarusian State Academy of Arts
