@@ -15,13 +15,13 @@
     + \+48 690 111 590  
 
 * LinkedIn
-    + [https://www.linkedin.com/in/max-shyshko-js-react-j-dev/](https://www.linkedin.com/in/max-shyshko-js-react-j-dev/)
+    + [Максим Шишко](https://www.linkedin.com/in/max-shyshko-js-react-j-dev/)
 
 * Github
-    + [https://github.com/atenobi/](https://github.com/atenobi/)
+    + [atenobi](https://github.com/atenobi/)
 
 * Telegram
-    + [https://facebook.com/atenobi/](https://facebook.com/atenobi/)
+    + [Максим Шишко](https://facebook.com/atenobi/)
 
 ===
 
