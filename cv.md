@@ -1,11 +1,9 @@
 # rsschool-cv
 # [https://atenobi.github.io/rsschool-cv/cv](https://atenobi.github.io/rsschool-cv/cv)
 
-===
-
 # Shyshko Maksym
 ### JS(React) Front-End Developer
-===
+
 ##### My contacts
 * Mail 
     + [atenobimailru@gmail.com](atenobimailru@gmail.com)
@@ -23,9 +21,7 @@
 * Telegram
     + [Максим Шишко](https://facebook.com/atenobi/)
 
-===
-
-##### Education
+### Education
 
 * 2006-2010
     + Brest musical college
@@ -43,9 +39,7 @@
     + ItechArt student Lab
         - JS(React) Front-end developer
 
-===
-
-##### Work Experiense
+### Work Experiense
 
 * 2014-2017
     + Belarussian State Academy of Arts
@@ -55,9 +49,7 @@
     + Republican theatre of Belarussian drama
         - actor
 
-===
-
-##### Skills
+### Skills
 1. HTML
 2. CSS
 3. SCSS
