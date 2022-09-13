@@ -200,27 +200,27 @@
 
       <section id="education" class="content-container styled-section">
         <h3 class="section-title">Education</h3>
-        <article>
-          <h4>Hight</h4>
-          <p>2010-2014 Belarusian State Academy of Arts</p>
-          <p>Theater faculty</p>
-          <p>Theater and cinema actor</p>
+        <article class="education-article">
+          <h4 class="education-article__title">Hight</h4>
+          <p class="education-article__text">2010-2014 Belarusian State Academy of Arts</p>
+          <p class="education-article__text">Theater faculty</p>
+          <p class="education-article__text">Theater and cinema actor</p>
         </article>
 
-        <article>
-          <h4>Courses</h4>
-          <p>2020-2021 Intellect Fox IT courses</p>
-          <p>Front-end development</p>
-          <p>JS (React) developer</p>
+        <article class="education-article">
+          <h4 class="education-article__title">Courses</h4>
+          <p class="education-article__text">2020-2021 Intellect Fox IT courses</p>
+          <p class="education-article__text">Front-end development</p>
+          <p class="education-article__text">JS (React) developer</p>
         </article>
 
-        <article>
-          <h4>Student lab</h4>
-          <p>2022 ItechArt student labs</p>
-          <p>Front-end development</p>
-          <p>JS (React) developer</p>
+        <article class="education-article">
+          <h4 class="education-article__title">Student lab</h4>
+          <p class="education-article__text">2022 ItechArt student labs</p>
+          <p class="education-article__text">Front-end development</p>
+          <p class="education-article__text">JS (React) developer</p>
           <img
-            src="./images/maksym_shyshko_itechart_sertificcate.jpg"
+            src="./images/Maksym Shyshko(sertificate).jpg"
             alt="sertificate_image"
             class="sertificate-img"
           />
@@ -230,16 +230,63 @@
       <section id="languages" class="content-container styled-section">
         <article>
           <h3 class="section-title">Language level</h3>
-          <ul>
-            <li>English B2</li>
-            <li>Ukrainian native</li>
-            <li>Belarusian native</li>
-            <li>Russian native</li>
-            <li>Polish A1</li>
+          <ul class="language-container">
+            <li class="language-text">English B2</li>
+            <li class="language-text">Ukrainian native</li>
+            <li class="language-text">Belarusian native</li>
+            <li class="language-text">Russian native</li>
+            <li class="language-text">Polish A1</li>
           </ul>
         </article>
       </section>
     </main>
-    <footer></footer>
+    
+    <footer class="footer">
+      <ul class="flex-row-container contact-link__container">
+        <li class="contact-link__item">
+          <a
+            href="mailto: atenobimailru@gmail.com"
+            target="_blank"
+            itemprop="почта"
+            class="contact-link__item__link"
+            ><svg class="social-media-icon">
+              <use href="#mail_svg"></use></svg
+            >mail</a>
+        </li>
+
+        <li class="contact-link__item">
+          <a
+            href="tel:+48690111590"
+            target="_blank"
+            itemprop="телефон"
+            class="contact-link__item__link"
+            ><svg class="social-media-icon">
+              <use href="#phone_svg"></use></svg
+            >phone</a>
+        </li>
+
+        <li class="contact-link__item">
+          <a
+            href="https://www.facebook.com/atenobi/"
+            target="_blank"
+            itemprop="фейсбук"
+            class="contact-link__item__link"
+            ><svg class="social-media-icon">
+              <use href="#facebook_svg"></use></svg
+            >facebook</a>
+        </li>
+
+        <li class="contact-link__item">
+          <a
+            href="https://github.com/atenobi"
+            target="_blank"
+            itemprop="гитхаб"
+            class="contact-link__item__link"
+            ><svg class="social-media-icon">
+              <use href="#github_svg"></use></svg
+            >github</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

@@ -175,7 +175,49 @@ ul {
     max-width: 400px;
 }
 
+.education-article {
+    text-align: center;
+    margin: 45px auto 0;
+    padding: 20px;
+    background-color: var(--light-blue);
+    width: 80%;
+}
+
+.education-article__title {
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 10px;
+}
+
+.education-article__text {
+    text-align: center;
+    margin: 15px 0 0;
+    padding: 10px;
+}
+
 .sertificate-img {
   max-width: 150px;
   max-height: 300px;
+  transition: 500ms;
+}
+
+.sertificate-img:hover {
+    transform: scale(3.5);
+    border: 1px solid var(--dark-blue);
+  }
+
+.language-container {
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.language-text {
+    margin: 20px auto 0;
+    padding: 10px;
+}
+
+.footer {
+    padding: 20px;
+    background: rgb(39,119,177);
+background: linear-gradient(180deg, rgba(39,119,177,1) 0%, rgba(255,255,255,1) 80%);
 }
