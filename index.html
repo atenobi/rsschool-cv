@@ -7,19 +7,33 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header>
-      <img
-        src="./images/photo_for_cv.jpg"
-        alt="cv_photo"
-        class="header__cv-photo"
-      />
-      <h2>Maksym Shyshko</h2>
-      <h3>Front-end</h3>
-      <nav>
-        <a href="#contacts" itemprop="контакты">Contacts</a>
-        <a href="#deployed-projects" itemprop="проекты">My projects(examples)</a>
-        <a href="#education" itemprop="образование">Education</a>
-        <a href="#languages" itemprop="языки">Languages</a>
+    <header class="header content-container">
+      <div class="header__container flex-row-container">
+        <img
+          src="./images/photo_for_cv.jpg"
+          alt="cv_photo"
+          class="header__cv-photo"
+        />
+        <div class="flex-col-container">
+          <h2 class="header__title-text">Maksym Shyshko</h2>
+          <h3 class="header__title-text">Front-end developer</h3>
+        </div>
+      </div>
+
+      <nav class="header__nav-container">
+        <a href="#contacts" itemprop="контакты" class="header__nav-link">
+          Contacts
+        </a>
+        <a href="#deployed-projects" itemprop="проекты" class="header__nav-link">
+          My projects
+          </a
+        >
+        <a href="#education" itemprop="образование" class="header__nav-link">
+          Education
+        </a>
+        <a href="#languages" itemprop="языки" class="header__nav-link">
+          Languages
+        </a>
       </nav>
     </header>
     <main>
@@ -27,10 +41,35 @@
         <article>
           <h3>My contacts</h3>
           <ul>
-            <li><a href="mail:atenobimailru@gmail.com" target="_blank" itemprop="почта">mail</a></li>
-            <li><a href="tel:+48690111590" target="_blank" itemprop="телефон">phone</a></li>
-            <li><a href="https://www.facebook.com/atenobi/" target="_blank" itemprop="фейсбук">facebook</a></li>
-            <li><a href="https://github.com/atenobi" target="_blank" itemprop="гитхаб">github</a></li>
+            <li>
+              <a
+                href="mail:atenobimailru@gmail.com"
+                target="_blank"
+                itemprop="почта"
+                >mail</a
+              >
+            </li>
+            <li>
+              <a href="tel:+48690111590" target="_blank" itemprop="телефон"
+                >phone</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/atenobi/"
+                target="_blank"
+                itemprop="фейсбук"
+                >facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/atenobi"
+                target="_blank"
+                itemprop="гитхаб"
+                >github</a
+              >
+            </li>
           </ul>
         </article>
       </section>
@@ -40,21 +79,33 @@
           <h3>My projects(examples)</h3>
           <ul>
             <li>
-              <a href="https://atenobi.github.io/zamova/" target="_blank">3@.mova</a>
+              <a href="https://atenobi.github.io/zamova/" target="_blank"
+                >3@.mova</a
+              >
             </li>
             <li>
-              <a href="https://atenobi.github.io/veresk/" target="_blank">Heather honey</a>
+              <a href="https://atenobi.github.io/veresk/" target="_blank"
+                >Heather honey</a
+              >
             </li>
             <li>
-              <a href="https://atenobi.github.io/cakes-study-project/" target="_blank"
-                >Cakes shop</a>
+              <a
+                href="https://atenobi.github.io/cakes-study-project/"
+                target="_blank"
+                >Cakes shop</a
+              >
             </li>
             <li>
               <a href="https://atenobi.github.io/games-catalog/" target="_blank"
-                >Games catalog</a>
+                >Games catalog</a
+              >
             </li>
             <li>
-              <a href="https://atenobi.github.io/test-task-todo/" target="_blank">To-do list</a>
+              <a
+                href="https://atenobi.github.io/test-task-todo/"
+                target="_blank"
+                >To-do list</a
+              >
             </li>
           </ul>
         </article>
@@ -81,7 +132,11 @@
           <p>2022 ItechArt student labs</p>
           <p>Front-end development</p>
           <p>JS (React) developer</p>
-          <img src="./images/maksym_shyshko_itechart_sertificcate.jpg" alt="sertificate_image" class="sertificate-img">
+          <img
+            src="./images/maksym_shyshko_itechart_sertificcate.jpg"
+            alt="sertificate_image"
+            class="sertificate-img"
+          />
         </article>
       </section>
 
