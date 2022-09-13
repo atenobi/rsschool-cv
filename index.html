@@ -7,6 +7,52 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <svg class="sprite" xmlns="http://www.w3.org/2000/svg">
+      <symbol id="facebook_svg" viewbox="0 0 267 267">
+        <path
+          d="M252.164 266.895c8.134 0 14.729-6.596 14.729-14.73V14.73c0-8.137-6.596-14.73-14.729-14.73H14.73C6.593 0 0 6.594 0 14.73v237.434c0 8.135 6.593 14.73 14.73 14.73h237.434z"
+        />
+        <path
+          xmlns="http://www.w3.org/2000/svg"
+          d="M184.152 266.895V163.539h34.692l5.194-40.28h-39.887V97.542c0-11.662 3.238-19.609 19.962-19.609l21.329-.01V41.897c-3.689-.49-16.351-1.587-31.08-1.587-30.753 0-51.807 18.771-51.807 53.244v29.705h-34.781v40.28h34.781v103.355h41.597z"
+          fill="#fff"
+        />
+      </symbol>
+
+      <symbol id="mail_svg" viewbox="0 0 512 512">
+        <rect width="512" height="512" rx="15%" />
+        <rect width="356" height="256" x="78" y="128" fill="#fff" rx="8%" />
+        <path
+          fill="none"
+          stroke-width="20"
+          d="M434 128L269 292c-7 8-19 8-26 0L78 128m0 256l129-128m227 128L305 256"
+        />
+      </symbol>
+
+      <symbol id="phone_svg" viewbox="0 0 512 512">
+        <rect width="512" height="512" rx="15%" />
+        <path
+          fill="#fff"
+          d="M395 338c-10-9-22-17-33-23-23-16-43-17-59 6-10 14-23 16-37 10-39-18-68-43-84-82-8-16-8-31 10-42 9-6 19-14 18-28-1-18-44-78-62-84-8-2-14-2-22 0-41 14-57 46-42 85a451 451 0 0 0 251 248l17 5c26 0 57-25 67-50 9-24-10-34-24-45z"
+        />
+        <path
+          fill="none"
+          stroke="#fff"
+          stroke-linecap="round"
+          stroke-width="17"
+          d="M268 138s41-1 72 30c31 30 27 74 27 74m-87-63s18-2 33 14c15 15 13 34 13 34M255 98s64-3 111 44c47 48 43 114 43 114"
+        />
+      </symbol>
+
+      <symbol id="github_svg" viewbox="0 0 512 512">
+        <rect width="512" height="512" rx="15%" />
+        <path
+          fill="#fff"
+          d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"
+        />
+      </symbol>
+    </svg>
+
     <header class="header content-container">
       <div class="header__container flex-row-container">
         <img
@@ -24,10 +70,13 @@
         <a href="#contacts" itemprop="контакты" class="header__nav-link">
           Contacts
         </a>
-        <a href="#deployed-projects" itemprop="проекты" class="header__nav-link">
-          My projects
-          </a
+        <a
+          href="#deployed-projects"
+          itemprop="проекты"
+          class="header__nav-link"
         >
+          My projects
+        </a>
         <a href="#education" itemprop="образование" class="header__nav-link">
           Education
         </a>
@@ -37,82 +86,120 @@
       </nav>
     </header>
     <main>
-      <section id="contacts">
+      <section id="contacts" class="content-container styled-section">
         <article>
-          <h3>My contacts</h3>
-          <ul>
-            <li>
+          <h3 class="section-title">My contacts</h3>
+          <ul class="flex-row-container contact-link__container">
+            <li class="contact-link__item">
               <a
-                href="mail:atenobimailru@gmail.com"
+                href="mailto: atenobimailru@gmail.com"
                 target="_blank"
                 itemprop="почта"
-                >mail</a
-              >
+                class="contact-link__item__link"
+                ><svg class="social-media-icon">
+                  <use href="#mail_svg"></use></svg
+                >mail</a>
             </li>
-            <li>
-              <a href="tel:+48690111590" target="_blank" itemprop="телефон"
-                >phone</a
-              >
+
+            <li class="contact-link__item">
+              <a
+                href="tel:+48690111590"
+                target="_blank"
+                itemprop="телефон"
+                class="contact-link__item__link"
+                ><svg class="social-media-icon">
+                  <use href="#phone_svg"></use></svg
+                >phone</a>
             </li>
-            <li>
+
+            <li class="contact-link__item">
               <a
                 href="https://www.facebook.com/atenobi/"
                 target="_blank"
                 itemprop="фейсбук"
-                >facebook</a
-              >
+                class="contact-link__item__link"
+                ><svg class="social-media-icon">
+                  <use href="#facebook_svg"></use></svg
+                >facebook</a>
             </li>
-            <li>
+
+            <li class="contact-link__item">
               <a
                 href="https://github.com/atenobi"
                 target="_blank"
                 itemprop="гитхаб"
-                >github</a
-              >
+                class="contact-link__item__link"
+                ><svg class="social-media-icon">
+                  <use href="#github_svg"></use></svg
+                >github</a>
             </li>
           </ul>
         </article>
       </section>
 
-      <section id="deployed-projects">
+      <section id="deployed-projects" class="content-container styled-section">
         <article>
-          <h3>My projects(examples)</h3>
-          <ul>
-            <li>
-              <a href="https://atenobi.github.io/zamova/" target="_blank"
-                >3@.mova</a
-              >
+          <h3 class="section-title">My projects(examples)</h3>
+          <ul class="content-container styled-section">
+            <li class="project-card">
+              <a class="project-title" href="https://atenobi.github.io/zamova/" target="_blank"
+                >3@.mova</a>
+              <img
+                class="project-image"
+                src="./images/project_zamova.png"
+                alt="zamova_project_image"
+                />
             </li>
-            <li>
-              <a href="https://atenobi.github.io/veresk/" target="_blank"
-                >Heather honey</a
-              >
+
+            <li class="project-card">
+              <a class="project-title" href="https://atenobi.github.io/veresk/" target="_blank"
+                >Heather honey</a>
+              <img
+                class="project-image"
+                src="./images/project_heater_honey.png"
+                alt="heather_honey_project_image"
+              />
             </li>
-            <li>
-              <a
+
+            <li class="project-card">
+              <a class="project-title"
                 href="https://atenobi.github.io/cakes-study-project/"
                 target="_blank"
-                >Cakes shop</a
-              >
+                >Cakes shop</a>
+              <img
+                class="project-image"
+                src="./images/project_cakes.png"
+                alt="cakes_project_image"
+              />
             </li>
-            <li>
-              <a href="https://atenobi.github.io/games-catalog/" target="_blank"
-                >Games catalog</a
-              >
+
+            <li class="project-card">
+              <a class="project-title" href="https://atenobi.github.io/games-catalog/" target="_blank"
+                >Games catalog</a>
+              <img
+                class="project-image"
+                src="./images/project_games.png"
+                alt="games_project_image"
+              />
             </li>
-            <li>
-              <a
+
+            <li class="project-card">
+              <a class="project-title"
                 href="https://atenobi.github.io/test-task-todo/"
                 target="_blank"
-                >To-do list</a
-              >
+                >To-do list</a>
+              <img
+                class="project-image"
+                src="./images/project_todo.png"
+                alt="to_do_project_image" 
+                />
             </li>
           </ul>
         </article>
       </section>
 
-      <section id="education">
-        <h3>Education</h3>
+      <section id="education" class="content-container styled-section">
+        <h3 class="section-title">Education</h3>
         <article>
           <h4>Hight</h4>
           <p>2010-2014 Belarusian State Academy of Arts</p>
@@ -140,9 +227,9 @@
         </article>
       </section>
 
-      <section id="languages">
+      <section id="languages" class="content-container styled-section">
         <article>
-          <h3>Languages level</h3>
+          <h3 class="section-title">Language level</h3>
           <ul>
             <li>English B2</li>
             <li>Ukrainian native</li>
