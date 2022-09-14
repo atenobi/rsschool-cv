@@ -173,6 +173,13 @@ ul {
 
 .project-image {
     max-width: 400px;
+    transition: 500ms;
+}
+
+.project-image:hover  {
+  border-radius: 10px;
+  transform: scale(2);
+  border: 1px solid var(--dark-blue);
 }
 
 .education-article {
@@ -201,23 +208,23 @@ ul {
   transition: 500ms;
 }
 
-.sertificate-img:hover {
-    transform: scale(3.5);
-    border: 1px solid var(--dark-blue);
-  }
+.sertificate-img:hover  {
+  transform: scale(3.5);
+  border: 1px solid var(--dark-blue);
+}
 
 .language-container {
-    text-align: center;
-    margin: 20px auto 0;
+  text-align: center;
+  margin: 20px auto 0;
 }
 
 .language-text {
-    margin: 20px auto 0;
-    padding: 10px;
+  margin: 20px auto 0;
+  padding: 10px;
 }
 
 .footer {
-    padding: 20px;
-    background: rgb(39,119,177);
-background: linear-gradient(180deg, rgba(39,119,177,1) 0%, rgba(255,255,255,1) 80%);
+  padding: 20px;
+  background: rgb(39,119,177);
+  background: linear-gradient(180deg, rgba(39,119,177,1) 0%, rgba(255,255,255,1) 80%);
 }
